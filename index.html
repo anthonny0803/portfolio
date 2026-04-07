@@ -563,11 +563,35 @@
 
     /* SDLC Diagram */
     .hero-sdlc {
-      width: 420px;
-      height: 420px;
-      margin: -8rem auto -0.5rem;
+      width: 250px;
+      height: 250px;
+      margin: -2rem auto 0.5rem;
       animation: float 5s ease-in-out infinite;
       position: relative;
+    }
+
+    @media (min-width: 480px) {
+      .hero-sdlc {
+        width: 280px;
+        height: 280px;
+        margin: -3rem auto 0.5rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .hero-sdlc {
+        width: 340px;
+        height: 340px;
+        margin: -5rem auto 0;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .hero-sdlc {
+        width: 420px;
+        height: 420px;
+        margin: -8rem auto -0.5rem;
+      }
     }
 
     .sdlc-ring {
