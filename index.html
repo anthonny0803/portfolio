@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Anthonny Ybañez - Backend Developer especializado en Laravel y arquitectura de software">
-  <meta name="keywords" content="Backend Developer, Laravel, PHP, MySQL, API, Desarrollador Web">
+  <meta name="description" content="Anthonny Ybañez - Backend Developer especializado en Laravel, APIs RESTful, PostgreSQL, Stripe y arquitectura de software">
+  <meta name="keywords" content="Backend Developer, Laravel, PHP, PostgreSQL, REST API, Docker, Stripe, TypeScript, React, Arquitectura de Software">
   <meta name="author" content="Anthonny Ybañez">
   
   <!-- Open Graph / Social -->
@@ -563,9 +563,9 @@
 
     /* SDLC Diagram */
     .hero-sdlc {
-      width: 160px;
-      height: 160px;
-      margin: 0 auto 2rem;
+      width: 420px;
+      height: 420px;
+      margin: -8rem auto -0.5rem;
       animation: float 5s ease-in-out infinite;
       position: relative;
     }
@@ -577,8 +577,9 @@
 
     .sdlc-node {
       font-family: var(--font-mono);
-      font-size: 6px;
-      fill: var(--text-secondary);
+      font-size: 7px;
+      font-weight: 600;
+      fill: var(--text-primary);
       text-anchor: middle;
     }
 
@@ -633,9 +634,10 @@
     }
 
     .hero-title .typed::after {
-      content: '|';
+      content: '_';
       animation: blink 1s infinite;
       margin-left: 2px;
+      font-weight: 700;
     }
 
     .hero-description {
@@ -1646,43 +1648,43 @@
             <!-- Plan -->
             <g transform="translate(100, 25)">
               <circle r="18" fill="#111" stroke="url(#sdlcGrad1)" stroke-width="2"/>
-              <text y="1" class="sdlc-node" fill="#22d3ee" font-size="7" text-anchor="middle" dominant-baseline="middle">PLAN</text>
+              <text y="1" class="sdlc-node" fill="#22d3ee" font-size="8" text-anchor="middle" dominant-baseline="middle">PLAN</text>
             </g>
             
             <!-- Design -->
             <g transform="translate(160, 60)">
               <circle r="18" fill="#111" stroke="url(#sdlcGrad2)" stroke-width="2"/>
-              <text y="1" class="sdlc-node" fill="#4ade80" font-size="7" text-anchor="middle" dominant-baseline="middle">DESIGN</text>
+              <text y="1" class="sdlc-node" fill="#4ade80" font-size="8" text-anchor="middle" dominant-baseline="middle">DESIGN</text>
             </g>
             
             <!-- Develop -->
             <g transform="translate(175, 115)">
               <circle r="18" fill="#111" stroke="url(#sdlcGrad1)" stroke-width="2"/>
-              <text y="1" class="sdlc-node" fill="#3b82f6" font-size="6" text-anchor="middle" dominant-baseline="middle">DEVELOP</text>
+              <text y="1" class="sdlc-node" fill="#3b82f6" font-size="7.5" text-anchor="middle" dominant-baseline="middle">DEVELOP</text>
             </g>
             
             <!-- Test -->
             <g transform="translate(140, 165)">
               <circle r="18" fill="#111" stroke="url(#sdlcGrad3)" stroke-width="2"/>
-              <text y="1" class="sdlc-node" fill="#a78bfa" font-size="7" text-anchor="middle" dominant-baseline="middle">TEST</text>
+              <text y="1" class="sdlc-node" fill="#a78bfa" font-size="8" text-anchor="middle" dominant-baseline="middle">TEST</text>
             </g>
             
             <!-- Deploy -->
             <g transform="translate(60, 165)">
               <circle r="18" fill="#111" stroke="#fb923c" stroke-width="2"/>
-              <text y="1" class="sdlc-node" fill="#fb923c" font-size="6" text-anchor="middle" dominant-baseline="middle">DEPLOY</text>
+              <text y="1" class="sdlc-node" fill="#fb923c" font-size="7.5" text-anchor="middle" dominant-baseline="middle">DEPLOY</text>
             </g>
             
             <!-- Maintain -->
             <g transform="translate(25, 115)">
               <circle r="18" fill="#111" stroke="#f472b6" stroke-width="2"/>
-              <text y="1" class="sdlc-node" fill="#f472b6" font-size="5.5" text-anchor="middle" dominant-baseline="middle">MAINTAIN</text>
+              <text y="1" class="sdlc-node" fill="#f472b6" font-size="7" text-anchor="middle" dominant-baseline="middle">MAINTAIN</text>
             </g>
             
             <!-- Review -->
             <g transform="translate(40, 60)">
               <circle r="18" fill="#111" stroke="url(#sdlcGrad2)" stroke-width="2"/>
-              <text y="1" class="sdlc-node" fill="#22d3ee" font-size="6" text-anchor="middle" dominant-baseline="middle">REVIEW</text>
+              <text y="1" class="sdlc-node" fill="#22d3ee" font-size="7.5" text-anchor="middle" dominant-baseline="middle">REVIEW</text>
             </g>
             
             <!-- Center icon - Code symbol -->
@@ -1777,10 +1779,10 @@
           </div>
 
           <p>
-            Desarrollador web especializado y apasionado por la construcción de sistemas empresariales robustos y escalables. Mi enfoque, "casi obsesivo" está en crear arquitecturas limpias y código mantenible a través de buenas prácticas y patrones de diseño como SOLID, ACID, DRY, KISS y Normalización de bases de datos a través de la programación orientada a objetos (POO) para asegurar estructuras eficientes y consistentes.
+            Ingeniero informático con experiencia desde 2020 en desarrollo backend y arquitectura de software. Diseño y construyo APIs RESTful con Laravel aplicando patrones enterprise (Service, Repository, DTOs, Policies) y principios SOLID. Experiencia en integración de pagos con Stripe, paneles administrativos con Filament y testing automatizado con PHPUnit.
           </p>
           <p>
-            Actualmente trabajo con el ecosistema LAMP (Linux, Apache, MySQL, PHP/Laravel), y también me desenvuelvo en el frontend cuando es necesario. Mi objetivo es seguir creciendo como desarrollador backend, explorando tecnologías como NestJS y Spring Boot.
+            Flujo de trabajo profesional con Git: ramas por issue, pull requests y commits atómicos. Actualmente trabajando con Spring Boot para ampliar mi stack hacia tecnologías enterprise.
           </p>
 
           <div class="about-highlights">
@@ -1831,14 +1833,14 @@
             <h3>Backend</h3>
           </div>
           <div class="skill-list">
-            <span class="skill-tag primary">Laravel</span>
-            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag primary">PHP 8</span>
+            <span class="skill-tag primary">Laravel 11</span>
             <span class="skill-tag">Eloquent ORM</span>
-            <span class="skill-tag">POO</span>
-            <span class="skill-tag">SOLID</span>
-            <span class="skill-tag">ACID</span>
-            <span class="skill-tag">DRY</span>
-            <span class="skill-tag">KISS</span>
+            <span class="skill-tag">Sanctum</span>
+            <span class="skill-tag">Spatie Permission</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Filament</span>
+            <span class="skill-tag">Stripe</span>
           </div>
         </div>
 
@@ -1850,10 +1852,12 @@
             <h3>Bases de datos</h3>
           </div>
           <div class="skill-list">
-            <span class="skill-tag primary">MySQL</span>
-            <span class="skill-tag">SQL</span>
-            <span class="skill-tag">Migrations</span>
-            <span class="skill-tag">Query Builder</span>
+            <span class="skill-tag primary">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Diseño relacional</span>
+            <span class="skill-tag">Normalización</span>
+            <span class="skill-tag">Migraciones</span>
+            <span class="skill-tag">Indexes</span>
           </div>
         </div>
 
@@ -1868,8 +1872,9 @@
             <span class="skill-tag">HTML5</span>
             <span class="skill-tag">CSS3</span>
             <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">TypeScript</span>
             <span class="skill-tag">React</span>
+            <span class="skill-tag">Tailwind CSS</span>
           </div>
         </div>
 
@@ -1882,13 +1887,13 @@
           </div>
           <div class="skill-list">
             <span class="skill-tag primary">Git</span>
-            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag primary">Docker</span>
+            <span class="skill-tag">Redis</span>
             <span class="skill-tag">Linux</span>
-            <span class="skill-tag">Apache</span>
-            <span class="skill-tag">composer</span>
-            <span class="skill-tag">npm</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">OpenAPI (Scramble)</span>
             <span class="skill-tag">Postman</span>
-            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Composer</span>
           </div>
         </div>
 
@@ -1897,13 +1902,11 @@
             <div class="skill-category-icon learning">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
             </div>
-            <h3>Aprendiendo</h3>
+            <h3>Trabajando con</h3>
           </div>
           <div class="skill-list">
-            <span class="skill-tag">PostgreSQL</span>
-            <span class="skill-tag">NestJS</span>
-            <span class="skill-tag">Docker</span>
             <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Java</span>
           </div>
         </div>
 
@@ -1934,7 +1937,43 @@
       </div>
 
       <div class="projects-grid">
-        <!-- Proyect 1 -->
+        <!-- Project 1: Restaurant -->
+        <article class="project-card project-featured animate-on-scroll">
+          <div class="project-image">
+            <div class="project-image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </div>
+            <div class="project-overlay">
+              <a href="#" target="_blank" class="project-link" title="Ver proyecto">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <a href="https://github.com/anthonny0803/restaurant-api" target="_blank" class="project-link" title="Ver código">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-type">// Full Stack Application</span>
+            <h3 class="project-title">Restaurant</h3>
+            <p class="project-description">
+              Sistema completo de reservas de restaurante con pagos, pre-pedidos y panel administrativo. Backend con Laravel 11 (API REST) y frontend con React 19 + TypeScript. 9 Services, 8 Repositories, 15 DTOs, 35 endpoints y +100 tests automatizados. Integración completa de Stripe con webhooks y reembolsos. Panel Filament con dashboard de analíticas. 8 notificaciones asíncronas y 3 jobs programados con Redis.
+            </p>
+            <div class="project-stack">
+              <span>Laravel 11</span>
+              <span>React 19</span>
+              <span>TypeScript</span>
+              <span>PostgreSQL</span>
+              <span>Redis</span>
+              <span>Docker</span>
+              <span>Stripe</span>
+              <span>Filament</span>
+              <span>OpenAPI</span>
+              <span>PHPUnit</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Academy -->
         <article class="project-card project-featured animate-on-scroll">
           <div class="project-image">
             <img src="https://api.microlink.io/?url=https://academy.ybanez.dev&screenshot=true&meta=false&embed=screenshot.url" alt="Academy" loading="lazy" />
@@ -1945,7 +1984,7 @@
               <a href="https://academy.ybanez.dev" target="_blank" class="project-link" title="Ver proyecto">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
-              <a href="https://github.com/anthonny0803/academy"  target="_blank" class="project-link" title="Ver código">
+              <a href="https://github.com/anthonny0803/academy" target="_blank" class="project-link" title="Ver código">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
               </a>
             </div>
@@ -1954,16 +1993,16 @@
             <span class="project-type">// Full Stack Application</span>
             <h3 class="project-title">Academy</h3>
             <p class="project-description">
-              Plataforma funcional para la gestión de una academia educativa integral multiuso, pensado tanto para sistema universitario, como colegiatura y cursos independientes con: Periodos académicos, Inscripciones, Secciones, Asignaturas, Calificaciones y sistema multi-rol para usuarios con diferentes permisos, Supervisores, Administradores, Profesores, Representantes como "cliente" y Estudiantes como "producto". Incluye una API (Aplicación independiente) con autenticación por token para una vista pública enfocada para la muestra de calificaciones y detalles estudiantiles. Arquitectura MVC con Laravel + Blade para el sistema interno y React para la API. <p>Para la prueba del sistema puedes ingresar con estos datos... Usuario: admin@gmail.com Contraseña: admin123</p>
-              <br>
+              Plataforma de gestión académica multi-rol (5 roles con Spatie). 46 Services, 12 Policies, 36 FormRequests. Máquina de estados para inscripciones, calificaciones ponderadas y cierre atómico de períodos. 88 tests automatizados. Desplegado en Render + Neon.
             </p>
             <div class="project-stack">
               <span>Laravel</span>
               <span>Blade</span>
-              <span>React</span>
+              <span>Alpine.js</span>
+              <span>Tailwind</span>
               <span>PostgreSQL</span>
-              <span>REST API</span>
-              <span>API Tokens</span>
+              <span>Spatie</span>
+              <span>PHPUnit</span>
             </div>
           </div>
         </article>
@@ -2017,7 +2056,7 @@
             <div class="project-stack">
               <span>React</span>
               <span>Google APIs</span>
-              <span>Endpoints</span>
+              <span>PHP</span>
             </div>
           </div>
         </article>
@@ -2041,7 +2080,7 @@
             <h3 class="timeline-title">Backend Developer</h3>
             <p class="timeline-company">Freelance</p>
             <p class="timeline-description">
-              Desarrollo de aplicaciones web y APIs RESTful con Laravel. Creación de arquitecturas escalables y soluciones personalizadas para empresas.
+              Diseño y desarrollo de APIs REST con Laravel 11, PostgreSQL y Redis. Integración de Stripe, panel administrativo con Filament, documentación OpenAPI y +100 tests automatizados. Flujo profesional de Git con issues, feature branches y pull requests.
             </p>
           </div>
         </div>
@@ -2050,10 +2089,10 @@
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <span class="timeline-date">2020 - 2023</span>
-            <h3 class="timeline-title">Backend Developer</h3>
-            <p class="timeline-company">Desarrollador de aplicaciones</p>
+            <h3 class="timeline-title">Desarrollador de Aplicaciones</h3>
+            <p class="timeline-company">PDV Servicios de Salud S.A.</p>
             <p class="timeline-description">
-              Migración de sistemas de gestión para la administración de la empresa desde tecnologías como VisualFoxPro a Laravel.
+              Diagnóstico y corrección de bugs e inconsistencias de datos en sistema legacy (Visual FoxPro) con base de datos sin normalizar. Desarrollo de aplicaciones a medida para administración hospitalaria. Soporte técnico a usuarios internos.
             </p>
           </div>
         </div>
@@ -2062,10 +2101,10 @@
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <span class="timeline-date">2016 - 2019</span>
-            <h3 class="timeline-title">Estudiante</h3>
-            <p class="timeline-company">Ingeniero informático</p>
+            <h3 class="timeline-title">Ingeniero Informático</h3>
+            <p class="timeline-company">Universidad Politécnica Territorial de Maracaibo</p>
             <p class="timeline-description">
-              Formación académica en fundamentos y algoritmos de programación, estructuras de datos, bases de datos y arquitectura de software.
+              Especialización en desarrollo de software, bases de datos y arquitectura de sistemas.
             </p>
           </div>
         </div>
